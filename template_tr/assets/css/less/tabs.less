@@ -1,0 +1,44 @@
+.tabs {
+    border-bottom: 1px solid @color-gray;
+    margin-bottom: @distance-col;
+}
+.tabs-item {
+    .inlineblock;
+    padding: 9px 15px;
+    margin-bottom: 5px;
+    a {
+        color: @color-default;
+        text-decoration: none;
+        border-bottom: 1px solid @color-red;
+    }
+    &:hover, &.active {
+        background: @color-red;
+        a {
+            color: #FFFFFF;
+        }
+    }
+}
+.tabs-content-item {
+    display: none;
+    &.active {
+        display: block;
+    }
+}
+.tabs-county {
+    padding-top: @distance-col/2;
+    .tabs-county-item {
+        .tabs-item;
+        padding: 9px;
+        &:hover, &.active {
+            background: none;
+            a {
+                color: @color-red;
+            }
+        }
+        &.active {
+            a {
+                border-bottom: none;
+            }
+        }
+    }
+}

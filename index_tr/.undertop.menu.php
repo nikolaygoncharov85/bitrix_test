@@ -1,0 +1,46 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Страны", 
+		"/countries/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Туры", 
+		"/tours/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Отели", 
+		"/hotels/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Услуги", 
+		"/services/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"VIP Сервис", 
+		"/vipservice/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	/*Array(
+		"Личный кабинет", 
+		"/agency/reg/", 
+		Array(),
+		Array(),
+		"" 
+	)*/
+);
+?>

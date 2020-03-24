@@ -1,0 +1,6 @@
+.list_for_style li + li {
+    margin-top: 0px !important;
+}
+.list_for_style li {
+    padding:15px !important;
+}

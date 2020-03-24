@@ -1,0 +1,131 @@
+#for_italy .page {
+    position: relative;
+}
+#for_italy .left-sidebar {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+}
+#for_italy .page-content {
+    width: 100%;
+    padding-left: 0;
+}
+#for_italy .title-before-main-img {
+    display: none;
+}
+#for_italy .main-img-block.for_italy {
+    text-align: right;
+    width: 77%;
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    float: right;
+}
+.clear {
+    clear: both;
+}
+.element_div {
+    background: #ffffff;
+    margin-bottom: 30px;
+}
+.element_div .table {
+    display: table;
+    width: 100%;
+}
+.element_div .img_content {
+    width: 33.3333%;
+    display: table-cell;
+    height: 100%;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: cover !important;
+    position: relative;
+}
+.element_div .text_content {
+    width: 66.6666%;
+    display: table-cell;
+    height: 100%;
+}
+.element_div .header_text {
+    text-align: left;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    top: 20px;
+    color: #ffffff;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding-left: 30px;
+}
+.element_div .element_row {
+    display: table;
+    width: 100%;
+    padding: 0 5% 0 3%;
+}
+.element_div .city_name {
+    text-align: left;
+    width: 45%;
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-bottom: 1px solid silver;
+}
+.element_div .hotels_list {
+    text-align: left;
+    width: 55%;
+    display: table-cell;
+    height: 100%;
+    border-bottom: 1px solid silver;
+}
+.element_div .hotels_list ul {
+    display: block;
+    width: 100%;
+    padding: 3px 0;
+}
+.element_div .hotels_list ul li {
+    display: block;
+    width: 100%;
+    padding: 2px 0;
+}
+.element_div .for_request_button {
+    display: table;
+    width: 100%;
+    text-align: right;
+}
+.element_div .for_request_button span {
+    font-size: 14px;
+    padding: 15px 0 15px 30px;
+    width: 60%;
+    display: table-cell;
+    text-align: left;
+    text-transform: uppercase;
+    vertical-align: middle;
+    height: 100%;
+}
+.element_div .for_request_button input.request_submit {
+    color: #ffffff;
+    background-color: #ff7373;
+    outline: none;
+    border: 0;
+    display: table-cell;
+    vertical-align: middle;
+    margin: 5% 8% 5% 0;
+    transition: all 0.2s;
+    font-size: 14px;
+    text-align: center;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    white-space: nowrap;
+    text-decoration: none;
+    height: 35px;
+    line-height: 35px;
+    text-transform: uppercase;
+}
+.element_div .for_request_button input.request_submit:hover {
+    background-color: #d25662;
+}

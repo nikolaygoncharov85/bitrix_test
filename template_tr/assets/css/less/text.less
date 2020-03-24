@@ -1,0 +1,67 @@
+@offset-text-p: 10px;
+.text {
+    p {
+        + p, + .hide-block, + ul {
+            margin-top: @offset-text-p;
+        }
+        + .advantages {
+            margin-top: 30px;
+            margin-bottom: 0;
+        }
+    }
+    h2  {
+        + p {
+            margin-top: 15px;
+        }
+    }
+
+    li {
+        padding-left: 12px;
+        position: relative;
+        &:before {
+            position: absolute;
+            left: 0;
+            top: 7px;
+            content: '';
+            width: 4px;
+            height: 4px;
+            background: @color-red;
+            .border-radius(50%);
+        }
+        + li {
+            margin-top: @offset-text-p;
+        }
+    }
+    h3 {
+        + p, + ul {
+            margin-top: 15px;
+        }
+    }
+    ul + p {
+        margin-top: @offset-text-p;
+    }
+
+}
+
+.inner-page-text {
+    .text {
+        h2 {
+            font-size: 16px;
+            font-weight: 600;
+            + p {
+                margin-top: 0;
+            }
+        }
+        p + h2 {
+            margin-top: 15px;
+        }
+    }
+}
+.table-striped {
+    +.table-striped {
+        margin-top: 15px;
+    }
+}
+.text-red {
+    color: @color-red;
+}

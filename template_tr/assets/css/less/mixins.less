@@ -1,0 +1,108 @@
+/* MIXINS */
+
+.inlineblock {
+	display: inline-block;
+	vertical-align: top;
+	
+	zoom: 1 !ie;
+	display: inline !ie;
+}
+
+.clearfix {
+    *zoom: ~"expression(this.runtimeStyle.zoom='1', this.appendChild(document.createElement('br')).style.cssText='clear:both;font:0/0 serif')";
+    zoom: 1 !ie;
+    
+    &:before,
+	&:after {
+		content: "";
+		display: table;
+	}
+	
+	&:after {
+		clear: both;
+	}
+}
+
+.border-radius (@radius: 5px) {
+	-webkit-border-radius: @radius;
+	-moz-border-radius:    @radius;
+	border-radius:         @radius;
+
+	-moz-background-clip:    padding;
+	-webkit-background-clip: padding-box;
+	background-clip:         padding-box;
+}
+
+.box-shadow (@string) {
+	-webkit-box-shadow: @string;
+	-moz-box-shadow:    @string;
+	box-shadow:         @string;
+}
+
+.transition (@transition) {
+	-webkit-transition: @transition;
+	-moz-transition:    @transition;
+	-ms-transition:     @transition;
+	-o-transition:      @transition;
+	transition:      @transition;
+}
+
+.opacity(@opacity: 1) {
+	@ieOpacity: @opacity * 100;
+	filter: ~"alpha(opacity=@{ieOpacity})";
+	-ms-filter: ~"progid:DXImageTransform.Microsoft.Alpha(Opacity=@{ieOpacity})";
+	opacity: @opacity;
+}
+.right-text {
+    text-align: right;
+}
+.center-text {
+    text-align: center;
+}
+.absolute-link {
+	display: block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+}
+.inlineblock-list {
+	font-size: 0;
+	line-height: 0;
+	letter-spacing: -1px;
+}
+.inlineblock-justify {
+    text-align: justify;
+    &:after {
+        width: 100%;
+        height: 0;
+        visibility: hidden;
+        overflow: hidden;
+        content: '';
+        display: inline-block;
+    }
+}
+.mb-col-dist {
+    margin-bottom: @distance-col;
+}
+.mt-col-dist {
+    margin-top: @distance-col;
+}
+.hide-block {
+    display: none;
+}
+.placeholdder-normal-style {
+    &::-webkit-input-placeholder {
+        font-style: normal;
+    }
+    &:-moz-placeholder {
+        font-style: normal;
+    }
+    &::-moz-placeholder {
+        font-style: normal;
+    }
+    &:-ms-input-placeholder {
+        font-style: normal;
+    }
+}

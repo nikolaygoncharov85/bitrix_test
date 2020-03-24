@@ -1,0 +1,15 @@
+.popup-order .container{
+    margin: 0 auto;
+    max-width: 515px;
+}
+
+.popup-order form {
+    padding: 0 10%;
+}
+
+.popup-title {
+    text-align: center;
+}
+div.mb-col-dist-error input{
+    border-color: #fc5f5f;
+}

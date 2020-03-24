@@ -1,0 +1,11 @@
+.container h1 {
+    font-size: 30px;
+    font-family: "playfair_displayitalic";
+    margin: 0;
+    text-transform: none;
+}
+.text_page a {
+    font-family: "playfair_displayitalic";
+    color: #015663;
+    text-decoration: underline;
+}

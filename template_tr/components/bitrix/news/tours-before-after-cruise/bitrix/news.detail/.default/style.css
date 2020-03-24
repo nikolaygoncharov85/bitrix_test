@@ -1,0 +1,23 @@
+.bx-google-map {
+    width: 694px!important;
+}
+
+.text-block-padding table,
+.text-block-padding table tr,
+.text-block-padding table tr td
+{
+    border: 1px solid #ededed;
+}
+.hotel-tabs.tour-tabs li {
+    float: left;
+    width: 12.5%;
+}
+.excursion-item-title {
+    margin-bottom: 0!important;
+}
+.excursion-order {
+    margin-top: 15px !important;
+}
+.name {
+    text-transform: uppercase;
+}

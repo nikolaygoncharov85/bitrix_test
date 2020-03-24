@@ -1,0 +1,46 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"спецпредложения", 
+		"special-offers/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"аренда машин", 
+		"cars-rent/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"страны", 
+		"countries/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"туры", 
+		"tours/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"отели", 
+		"hotels/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Аренда яхт", 
+		"/arenda-yakht.php", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

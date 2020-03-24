@@ -1,0 +1,100 @@
+.country_select,
+.filter_links a {
+    cursor: pointer;
+    font-size: 18px;
+    color: #212121;
+    display: block;
+    float: left;
+    width: auto;
+    font-weight: lighter;
+    border-bottom: 1px solid #ff7373;
+    margin-left: 35px;
+    margin-top: 10px;
+    padding: 10px 15px;
+}
+.country_select:first-child {
+    margin-left: 5px;
+}
+.filter_links {
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+.country_select:hover,
+.filter_links a:hover,
+.country_select.active {
+    background: #ff7373;
+    color: #fff;
+}
+.filter_links a {
+    margin-left: 20px;
+    font-size: 18px;
+    text-decoration: none;
+}
+.tour_element {
+    float: left;
+    width: 31%;
+    margin-left: 2.25%;
+    margin-top: 20px;
+    background: #013f56;
+    position: relative;
+}
+.tours_row {
+    margin-top: 15px;
+}
+.tour_element .img_bg {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+.tour_element a {
+    width: calc(100% - 20px);
+    margin: 10px auto 10px auto;
+    background: #ff7373;
+    padding: 10px 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+.tour_element a:hover {
+    background: #D25663;
+}
+.tour_element .tour_name {
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    display: block;
+    padding: 10px;
+    position: absolute;
+    bottom: 59px;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.3);
+    font-weight: bold;
+}
+.tour_element .tour_price {
+    color: #fff;
+    font-size: 14px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    background: #013f56;
+    font-weight: bold;
+}
+@media(max-width: 768px){
+    .tour_element {
+        width: 100%;
+        float: none;
+        margin-bottom: 20px;
+    }
+    .tour_element .tour_name {
+        bottom: 59px;
+    }
+}

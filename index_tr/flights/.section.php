@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Авиаперелеты";
+$arDirProperties = array(
+
+);
+?>

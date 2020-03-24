@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Отели";
+$arDirProperties = array(
+
+);
+?>

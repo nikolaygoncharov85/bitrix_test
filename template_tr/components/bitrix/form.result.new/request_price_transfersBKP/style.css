@@ -1,0 +1,12 @@
+.popup-order .container{
+    margin: 0 auto;
+    max-width: 515px;
+}
+
+.popup-order form {
+    padding: 0 10%;
+}
+
+.popup-title {
+    text-align: center;
+}

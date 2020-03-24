@@ -1,0 +1,24 @@
+.text-block-padding table,
+.inner-page-text table,
+.text-block-padding table tr,
+.inner-page-text table tr,
+.text-block-padding table tr td,
+.inner-page-text table tr td
+{
+    border: 1px solid #ededed;
+}
+
+.main-filter-datapicker {
+    background-repeat: no-repeat;
+}
+.container > h1 {
+    padding-top: 15px;
+}
+h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.left-sidebar-menu li.lvl2{
+    margin-left: 10px;
+}

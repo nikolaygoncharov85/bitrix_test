@@ -1,0 +1,102 @@
+.personal-textarea-block {
+    width: 100% !important;
+    display: table;
+    height: 100%;
+}
+.personal-btn-block {
+    float: right;
+    clear: both;
+}
+.float_left {
+    float:left;
+}
+.clear {
+    clear: both;
+}
+.phone_name {
+    width: 39%;
+    padding: 10px;
+    display: table-cell;
+    height: 100%;
+}
+.phone_name input {
+    width: 100%;
+    display: block;
+    font: message-box;
+}
+.phone_name input:first-child {
+    margin-bottom: 15px;
+}
+.text_area {
+    width: 45%;
+    padding: 10px;
+    display: table-cell;
+    height: 100%;
+}
+.text_area textarea {
+    height: 85px;
+    font: message-box;
+    display: block;
+    width: 100%;
+}
+.sub_button {
+    width: auto;
+    padding: 10px;
+    display: table-cell;
+    height: 100%;
+    vertical-align: top;
+}
+.sub_button input {
+    width: 100%;
+    display: block;
+}
+.traveluxe_url {
+    display: none;
+}
+.feedback_url_form {
+    padding: 15px;
+}
+p.modal-description {
+    font-family: Open Sans, Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    padding: 0!important;
+    font-size: 18px;
+    color: #015663;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.modal-title {
+    text-align: center;
+    font-size: 24px;
+    color: #015663;
+    margin: 0;
+    line-height: 1.428571429;
+    margin-bottom: 20px;
+}
+@media(max-width:768px){
+    p.modal-description {
+        display: none;
+    }
+    .personal-textarea-block {
+        display: block;
+    }
+    .phone_name {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .sub_button {
+        width: 100%;
+        display: block;
+    }
+    .personal-btn-block {
+        float: none;
+        clear: both;
+    }
+    .phone_name input:first-child {
+        margin-bottom: 0;
+    }
+    .fancybox-inner {
+        height: auto;
+    }
+}

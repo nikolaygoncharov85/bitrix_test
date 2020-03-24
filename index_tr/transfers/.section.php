@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Трансферы";
+$arDirProperties = array(
+
+);
+?>

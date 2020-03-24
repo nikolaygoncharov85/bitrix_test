@@ -1,0 +1,42 @@
+div.img_slide_hotel {
+    width: 33.33%;
+    float: left;
+    padding-left: 15px;
+}
+.img_slide_hotel .hr {
+    display: none;
+}
+div.img_slide_hotel .special-item-inner .btn {
+    opacity: 1;
+    bottom: 0;
+    position: absolute;
+}
+div.img_slide_hotel .special-item-inner {
+    height: 100%;
+}
+.hotels_spo_all_list {
+    margin: 0px 0px 0px -10px;
+}
+.price_ {
+    right: 0;
+    top: 10px;
+    color: #fff;
+    padding: 5px 10px;
+    outline: none;
+    text-decoration: none;
+    background: #013f56;
+    font-size: 14px;
+}
+@media only screen and (max-width: 768px) {
+    div.img_slide_hotel {
+        width: 100%;
+        float: none;
+        padding-left: 15px;
+    }
+    .img_slide_hotel .hr {
+        display: block;
+        height: 2px;
+        width: 100%;
+        background-color: silver;
+    }
+}

@@ -1,0 +1,86 @@
+@count-grid: 15;
+
+.generate-rows(@n, @size, @i: 1) when (@i =< @n) {
+    .row-@{i}@{size} {
+        .col {
+            width: (100% / @i);
+        }
+    }
+    .generate-rows(@n, @size, (@i + 1));
+}
+.custom-row-2col(@size-first, @screen-size) {
+    @media (min-width: @screen-size) {
+        > .col {
+            width: @size-first;
+            & + .col {
+                width: 100% - @size-first;
+            }
+        }
+    }
+}
+
+
+.generate-rows(@count-grid, ~'');
+
+@media (min-width: @screen-sm) {
+    .generate-rows(@count-grid, -sm);
+}
+
+@media (min-width: @screen-md) {
+    .generate-rows(@count-grid, -md);
+}
+
+@media (min-width: @screen-lg) {
+    .generate-rows(@count-grid, -lg);
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: @container-padding;
+    padding-right: @container-padding;
+    width: 100%;
+    @media (min-width: @screen-sm) {
+        width: @container-sm;
+    }
+    @media (min-width: @screen-md) {
+        width: @container-md;
+    }
+    @media (min-width: @screen-lg) {
+        width: @container-lg;
+    }
+    &.without-padding {
+        padding: 0;
+    }
+}
+
+
+
+[class^=row-] {
+    font-size: 0;
+    margin-left: -@distance-col/2;
+    margin-right: -@distance-col/2;
+}
+[class^=row-]:after,
+[class^=row-]:before {
+    display: table;
+    content: " ";
+}
+[class^=row-]:after {
+    clear: both;
+}
+.col {
+    .inlineblock;
+    font-size: @default-font-size;
+    text-align: left;
+    position: relative;
+    min-height: 1px;
+    padding: 0 @distance-col/2;
+    &.without-padding {
+        padding: 0;
+    }
+}
+.row-inner {
+    margin-left: 0;
+    margin-right: 0;
+}

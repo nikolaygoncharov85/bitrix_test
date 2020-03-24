@@ -1,0 +1,39 @@
+.bx-google-map {
+    width: 694px!important;
+}
+.text-block-padding table,
+.text-block-padding table tr,
+.text-block-padding table tr td
+{
+    border: 1px solid #ededed;
+}
+.bottom-carousel.hotel_near {
+    width: 100% !important;
+}
+.bottom-carousel.hotel_near li a.btn {
+    position: relative;
+    margin: 20px auto 20px auto;
+    text-transform: uppercase;
+    padding: 0 7px;
+    display: block;
+    width: auto;
+    left: auto;
+    right: auto;
+}
+.bottom-carousel-block a.jcarousel-control-prev {
+    left: 2px;
+    display: block !important;
+}
+.bottom-carousel-block a.jcarousel-control-next {
+    right: 2px;
+    display: block !important;
+}
+.hotel_near .img {
+    height: 180px;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+.hotel-name {
+    text-align: center;
+}

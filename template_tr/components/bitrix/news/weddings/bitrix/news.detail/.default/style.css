@@ -1,0 +1,54 @@
+.bx-google-map {
+    width: 694px!important;
+}
+
+.text-block-padding table,
+.text-block-padding table tr,
+.text-block-padding table tr td
+{
+    border: 1px solid #ededed;
+}
+.hotel-tabs.tour-tabs li {
+    float: left;
+    width: 12.5%;
+}
+.col.accordion a.fancybox {
+    width: 9%;
+    margin: 10px 0.5%;
+    display: block;
+    padding: 0;
+    float: left;
+}
+.col.accordion .without-padding {
+    text-align: left;
+}
+.clear {
+    clear: both;
+}
+.accordion_h3 {
+    font-size: 22px;
+    text-transform: none;
+    margin: 20px 10px;
+}
+.slider_h {
+    font-family: "playfair_displayitalic";
+    font-size: 20px;
+    border-bottom: 1px dashed;
+    padding: 2px 0;
+    line-height: 2vw;
+    cursor: pointer;
+}
+.slider_div {
+    padding: 10px;
+    display: none;
+}
+.img_list {
+    display: none;
+}
+.accordion_wrapper td {
+    border: 1px solid silver;
+    padding: 5px;
+}
+.popup-close {
+    top: 0 !important;
+}

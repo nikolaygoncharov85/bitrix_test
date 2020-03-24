@@ -1,0 +1,31 @@
+@breadcrumb-separator:          ">";
+.breadcrumb {
+    margin-bottom: 0;
+    padding: 0;
+    margin-top: 5px;
+    list-style: none;
+    font-size: 10px;
+    text-transform: uppercase;
+
+    > li {
+        display: inline-block;
+
+        + li:before {
+            content: "@{breadcrumb-separator}\00a0"; // Unicode space added since inline-block means non-collapsing white-space
+            padding: 0 5px;
+            color: @color-breadcrubs;
+        }
+        a {
+            color: @color-breadcrubs;
+            text-decoration: none;
+        }
+
+    }
+
+    > .active {
+        a {
+            color: @color-default;
+        }
+
+    }
+}

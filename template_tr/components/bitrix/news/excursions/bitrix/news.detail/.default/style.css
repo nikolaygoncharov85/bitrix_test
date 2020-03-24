@@ -1,0 +1,9 @@
+.bx-google-map {
+    width: 694px!important;
+}
+.text-block-padding table,
+.text-block-padding table tr,
+.text-block-padding table tr td
+{
+    border: 1px solid #ededed;
+}

@@ -1,0 +1,18 @@
+.excursion-list li,
+.excursion-list li + li {
+    margin-bottom: 0 !important;
+    border-bottom: 1px solid #e0e0e0;
+}
+ul.excursion-list {
+    background: #ffffff;
+    padding: 0 30px;
+}
+.pagination.white-bg {
+    padding: 30px 0 !important;
+}
+.clear {
+    clear: both;
+}
+.excursion-item {
+
+}

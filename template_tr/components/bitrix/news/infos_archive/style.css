@@ -1,0 +1,22 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 07.12.2015, 15:09:14
+    Author     : user
+*/
+p.recommended_item_name{
+    margin-bottom: 75px;
+    min-height: 130px;
+}
+.hotels_list_item{
+    height: 350px;
+}
+.recommended_item{
+    min-height: 430px;
+}
+.recommended_item_name{
+    font-size: 23px;
+}

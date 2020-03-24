@@ -1,0 +1,97 @@
+.form-required {
+	color: red;
+}
+.error-fld {
+	display: block;
+	float: left;
+	height: 13px;
+	width: 15px;
+	background-repeat: no-repeat;
+	background-image: url('images/icon_warn.gif');
+}
+.select_time .fast_change_tour_label_name {
+	width: 55%;
+}
+.select_time .fast_change_tour_label_field{
+	width: 45%;
+}
+.mb-col-dist {
+	margin-bottom: 10px !important;
+}
+#index_personal_manager {
+	border: 5px solid #afc3c6;
+	padding: 15px 25px;
+	margin-top: 30px;
+}
+.w50 {
+	width: 50%;
+}
+.float_left {
+	float: left;
+}
+.float_right {
+	float: right;
+}
+.clear {
+	clear: both;
+}
+#index_feedback_phone {
+	border-left: 1px solid #afc3c6
+}
+#index_personal_manager .text_title {
+	font-size: 24px;
+	color: #015663;
+	line-height: 28px;
+	font-family: Open-sans;
+	font-weight: lighter;
+	display: block;
+}
+#index_personal_manager .manager_photo {
+	width: 30%;
+}
+#index_personal_manager .manager_photo img {
+	width: 99.99%;
+	outline:none;
+}
+#index_personal_manager .text_block {
+	width: 70%;
+	text-align: left;
+	padding: 0 25px;
+}
+.relative {
+	position: relative;
+}
+#index_personal_manager .text_undertitle {
+	font-size: 14px;
+	color: #015663;
+	line-height: 20px;
+	font-weight: lighter;
+	display: block;
+}
+#index_personal_manager .white-active-block {
+	padding: 0;
+}
+#index_personal_manager .index_feedback_phone {
+	padding: 0 25px;
+	text-align: left;
+}
+#index_feedback_phone input {
+	display: block;
+	width: 100%;
+	margin-bottom: 15px;
+}
+#index_personal_manager .row-manager-phone {
+	position: absolute;
+	bottom: 5px;
+	right: 25px;
+	width: 70%;
+}
+#index_personal_manager .row-manager-phone span {
+	font-size: 16px;
+	line-height: 28px;
+	color: #015663;
+	font-weight: normal;
+}
+#index_personal_manager .choose-city-list a {
+	font-size: 18px;
+}

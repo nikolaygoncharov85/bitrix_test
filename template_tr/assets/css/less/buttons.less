@@ -1,0 +1,44 @@
+.btn {
+    display: inline-block;
+    margin-bottom: 0; // For input.btn
+    text-align: center;
+    vertical-align: top;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
+    border: 0;
+    white-space: nowrap;
+    text-decoration: none;
+    height: @height-btn;
+    line-height: @height-btn;
+    text-transform: uppercase;
+    .transition(all @transition-speed);
+}
+.btn-red {
+    .button-kit(#FFFFFF, @color-red, @color-red-hover);
+}
+
+.btn-100 {
+    width: 100%;
+}
+.btn-padding {
+    padding: 0 15px;
+}
+.btn-small {
+    font-size: 14px;
+}
+
+.button-kit(@color; @background; @background-hover: darken(@background, 5%)) {
+    color: @color;
+    background-color: @background;
+
+    &:focus,
+    &.focus {
+        color: @color;
+        background-color: @background-hover;
+    }
+    &:hover {
+        color: @color;
+        background-color: @background-hover;
+    }
+}
